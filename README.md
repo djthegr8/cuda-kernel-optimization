@@ -11,14 +11,11 @@ Three CUDA problems, each with a baseline and one or more optimized versions:
 ## Layout
 
 ```
-submission/
-  230395-assign2/
-    230395_assign2.pdf   Report
-    Makefile
-    problem1/            Convolution
-    problem2/            Grid search (+ disp.txt, grid.txt inputs)
-    problem3/            Bloom filters (+ sample traces and generates_traces.py)
-  230395-assign2.tar.gz  Archive of the folder above (identical contents)
+230395_assign2.pdf   Report
+Makefile
+problem1/            Convolution
+problem2/            Grid search (+ disp.txt, grid.txt inputs)
+problem3/            Bloom filters (+ sample traces and generates_traces.py)
 ```
 
 ## Build
@@ -26,7 +23,6 @@ submission/
 Needs CUDA (tested with 12.6) and gcc. The target architecture defaults to `sm_86` (A40 / RTX 30-series):
 
 ```sh
-cd submission/230395-assign2
 make                 # build everything
 make problem3-blocked
 make ARCH=sm_80      # other GPUs
@@ -42,7 +38,7 @@ Binaries land next to their sources as `*.out`.
 # Problem 1: no arguments. The size N is the compile-time constants
 # Input_Width / Input_Height in problem1/230395-prob1.cu (currently 1 << 8 = 256);
 # edit them to 64 or 128 and rebuild to run the other sizes.
-cd submission/230395-assign2/problem1 && ./problem1.out
+cd problem1 && ./problem1.out
 
 # Problem 2: reads ./disp.txt and ./grid.txt, writes results-vN.txt in the working directory
 cd ../problem2 && ./problem2-v2.out        # also problem2-v0.out / -v1.out / -v3.out
@@ -63,4 +59,4 @@ Development was done on an RTX 4060 laptop (Core i7-14650HX); the final results 
 - **Problem 2:** v0 takes ~657 s on the server CPU, v1 ~30 s, v2 ~0.14 s with pruning (the default; ~5.5 s when built with `-DPRUNE=0`), and v3 (Thrust) ~40 s. All versions find the same 11,608 points.
 - **Problem 3:** no false negatives in any run. The blocked filter has ~25% faster searches but a higher false-positive rate (0.229% vs 0.119% after the inserts at N = 20M); the report includes the block-size ablation and Nsight Compute analysis.
 
-See `submission/230395-assign2/230395_assign2.pdf` for the full write-up.
+See `230395_assign2.pdf` for the full write-up.
