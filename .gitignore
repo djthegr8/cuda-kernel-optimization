@@ -1,1 +1,5 @@
 *.out
+# local-only working files (kept on disk, not in the repo)
+/report/
+/source-files/
+/outputs_*_p1.txt

@@ -1,7 +1,0 @@
-/usr/local/cuda/bin/nvcc -O2 -std=c++17 -arch=sm_86 problem1.cu -o problem1.out
-gcc  -O2 -std=c17 -D_POSIX_C_SOURCE=199309L problem2-v0.c -o problem2-v0.out
-/usr/local/cuda/bin/nvcc -O2 -std=c++17 -arch=sm_86 --fmad=false problem2-v1.cu -o problem2-v1.out
-/usr/local/cuda/bin/nvcc -O2 -std=c++17 -arch=sm_86 --fmad=false problem2-v2.cu -o problem2-v2.out
-/usr/local/cuda/bin/nvcc -O2 -std=c++14 -arch=sm_86 --fmad=false -Xcompiler -ffp-contract=off problem2-v3.cu -o problem2-v3.out
-/usr/local/cuda/bin/nvcc -O2 -std=c++17 -arch=sm_86 problem3-vanilla.cu -o problem3-vanilla.out
-/usr/local/cuda/bin/nvcc -O2 -std=c++17 -arch=sm_86 problem3-blocked.cu -o problem3-blocked.out
