@@ -1,0 +1,8 @@
+insert: 950000 keys, kernel time 0.239 ms
+search: 1000000 keys, kernel time 0.049 ms
+[after insert] searches: 1000000, false negatives: 0, false positives: 41032
+[after insert] false positive rate (false positives / all searches): 0.041032   (over absent keys only: 0.082064)
+delete: 285000 keys, kernel time 0.062 ms
+search: 1000000 keys, kernel time 0.057 ms
+[after delete] searches: 1000000, false negatives: 0, false positives: 23188
+[after delete] false positive rate (false positives / all searches): 0.023188   (over absent keys only: 0.035665)

@@ -1,0 +1,90 @@
+Serial version: 3864 ms
+- - - - - - - Basic Kernel - - - - - - - -
+No differences found between base and test versions
+Kernel3D_basic time (ms): 15.3375
+Kernel3D_basic End-To-End time (ms): 80.3231
+- - - - - - Optimal Kernel - - - - - - -
+No differences found between base and test versions
+Kernel3D_opt time (ms): 2.50714
+Kernel3D_opt End-To-End Time (ms): 66.7442
+Serial version: 3972 ms
+- - - - - - - Basic Kernel - - - - - - - -
+No differences found between base and test versions
+Kernel3D_basic time (ms): 15.3679
+Kernel3D_basic End-To-End time (ms): 81.0441
+- - - - - - Optimal Kernel - - - - - - -
+No differences found between base and test versions
+Kernel3D_opt time (ms): 2.49968
+Kernel3D_opt End-To-End Time (ms): 68.7566
+Serial version: 3833 ms
+- - - - - - - Basic Kernel - - - - - - - -
+No differences found between base and test versions
+Kernel3D_basic time (ms): 15.3293
+Kernel3D_basic End-To-End time (ms): 79.7645
+- - - - - - Optimal Kernel - - - - - - -
+No differences found between base and test versions
+Kernel3D_opt time (ms): 2.51811
+Kernel3D_opt End-To-End Time (ms): 66.7939
+Serial version: 3790 ms
+- - - - - - - Basic Kernel - - - - - - - -
+No differences found between base and test versions
+Kernel3D_basic time (ms): 15.323
+Kernel3D_basic End-To-End time (ms): 80.4865
+- - - - - - Optimal Kernel - - - - - - -
+No differences found between base and test versions
+Kernel3D_opt time (ms): 2.51744
+Kernel3D_opt End-To-End Time (ms): 66.6052
+Serial version: 3790 ms
+- - - - - - - Basic Kernel - - - - - - - -
+No differences found between base and test versions
+Kernel3D_basic time (ms): 15.3682
+Kernel3D_basic End-To-End time (ms): 85.4879
+- - - - - - Optimal Kernel - - - - - - -
+No differences found between base and test versions
+Kernel3D_opt time (ms): 2.49738
+Kernel3D_opt End-To-End Time (ms): 67.7276
+Serial version: 3786 ms
+- - - - - - - Basic Kernel - - - - - - - -
+No differences found between base and test versions
+Kernel3D_basic time (ms): 15.3731
+Kernel3D_basic End-To-End time (ms): 81.0822
+- - - - - - Optimal Kernel - - - - - - -
+No differences found between base and test versions
+Kernel3D_opt time (ms): 2.496
+Kernel3D_opt End-To-End Time (ms): 68.4166
+Serial version: 3809 ms
+- - - - - - - Basic Kernel - - - - - - - -
+No differences found between base and test versions
+Kernel3D_basic time (ms): 15.3354
+Kernel3D_basic End-To-End time (ms): 80.141
+- - - - - - Optimal Kernel - - - - - - -
+No differences found between base and test versions
+Kernel3D_opt time (ms): 2.50973
+Kernel3D_opt End-To-End Time (ms): 66.6356
+Serial version: 3839 ms
+- - - - - - - Basic Kernel - - - - - - - -
+No differences found between base and test versions
+Kernel3D_basic time (ms): 15.3344
+Kernel3D_basic End-To-End time (ms): 79.3466
+- - - - - - Optimal Kernel - - - - - - -
+No differences found between base and test versions
+Kernel3D_opt time (ms): 2.50877
+Kernel3D_opt End-To-End Time (ms): 67.0154
+Serial version: 3962 ms
+- - - - - - - Basic Kernel - - - - - - - -
+No differences found between base and test versions
+Kernel3D_basic time (ms): 15.36
+Kernel3D_basic End-To-End time (ms): 79.9613
+- - - - - - Optimal Kernel - - - - - - -
+No differences found between base and test versions
+Kernel3D_opt time (ms): 2.4921
+Kernel3D_opt End-To-End Time (ms): 66.9261
+Serial version: 3847 ms
+- - - - - - - Basic Kernel - - - - - - - -
+No differences found between base and test versions
+Kernel3D_basic time (ms): 15.3281
+Kernel3D_basic End-To-End time (ms): 80.5389
+- - - - - - Optimal Kernel - - - - - - -
+No differences found between base and test versions
+Kernel3D_opt time (ms): 2.50522
+Kernel3D_opt End-To-End Time (ms): 66.8369

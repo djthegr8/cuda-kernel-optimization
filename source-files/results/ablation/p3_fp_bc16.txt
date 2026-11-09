@@ -1,0 +1,4 @@
+[after insert] searches: 1000000, false negatives: 0, false positives: 3152
+[after insert] false positive rate (false positives / all searches): 0.003152   (over absent keys only: 0.006304)
+[after delete] searches: 1000000, false negatives: 0, false positives: 2044
+[after delete] false positive rate (false positives / all searches): 0.002044   (over absent keys only: 0.003144)

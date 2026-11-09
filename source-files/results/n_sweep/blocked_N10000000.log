@@ -1,0 +1,9 @@
+N = 10000000 requested, 10000000 counters used (312500 blocks of 32)
+insert: 950000 keys, kernel time 0.757 ms
+search: 1000000 keys, kernel time 0.102 ms
+[after insert] searches: 1000000, false negatives: 0, false positives: 10236
+[after insert] false positive rate (false positives / all searches): 0.010236   (over absent keys only: 0.020472)
+delete: 285000 keys, kernel time 0.226 ms
+search: 1000000 keys, kernel time 0.112 ms
+[after delete] searches: 1000000, false negatives: 0, false positives: 6130
+[after delete] false positive rate (false positives / all searches): 0.006130   (over absent keys only: 0.009428)

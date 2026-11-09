@@ -1,0 +1,13 @@
+==PROF== Connected to process 1624192 (/users/misc/dweepj23/assign2/source-files/problem3-vanilla.out)
+==PROF== Profiling "bloom_insert": 0%....50%....100% - 44 passes
+==PROF== Profiling "bloom_search": 0%....50%....100% - 44 passes
+insert: 950000 keys, kernel time 3289.967 ms
+search: 1000000 keys, kernel time 1592.724 ms
+[after insert] searches: 1000000, false negatives: 0, false positives: 1185
+[after insert] false positive rate (false positives / all searches): 0.001185   (over absent keys only: 0.002370)
+delete: 285000 keys, kernel time 0.613 ms
+search: 1000000 keys, kernel time 0.318 ms
+[after delete] searches: 1000000, false negatives: 0, false positives: 553
+[after delete] false positive rate (false positives / all searches): 0.000553   (over absent keys only: 0.000851)
+==PROF== Disconnected from process 1624192
+==PROF== Report: /users/misc/dweepj23/assign2/source-files/results/p3/ncu/vanilla.ncu-rep

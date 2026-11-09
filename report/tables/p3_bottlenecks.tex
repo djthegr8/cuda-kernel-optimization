@@ -1,0 +1,5 @@
+\begin{enumerate}
+\item \textbf{Uncoalesced global accesses.} Counter lookups are random, so 85\%/80\% (vanilla insert/search) and 85\%/80\% (blocked) of the transferred sectors are excess; estimated speedup if fixed: 85.12\%/77.97\% (vanilla), 84.98\%/77.24\% (blocked).
+\item \textbf{Long-scoreboard stalls.} Warps wait on L1TEX/global loads: 1311.2/356.9 cycles per issued instruction (vanilla insert/search) and 1341.8/254.4 (blocked).
+\item \textbf{Poor DRAM/L2 access pattern.} Only 5.1--5.6 of every 32 bytes in a fetched sector are used, and 90.4\%/89.6\% of sectors miss L2 in vanilla versus 71.3\%/72.1\% in blocked.
+\end{enumerate}
